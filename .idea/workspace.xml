@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="" />
+    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/publish.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/publish-server-vanilla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/.idea/publish-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/publish-tool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/package/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-tool/publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/myapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/package.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/views/error.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/views/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/views/layout.jade" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
