@@ -1,0 +1,107 @@
+import {enableGesture} from './gesture'
+
+
+export function createElement(comp, attributes, ...children) {
+	// console.log(arguments);
+	// // debugger;
+	let ele;
+	if (typeof comp === 'string') {
+		ele = new Wrapper(comp);
+	} else {
+		ele = new comp({
+			initData: {}
+		});
+	}
+	
+	for(let name in attributes) {
+		// ele[name] = attributes[name];   // attribute 和 property 是同一个
+		ele.setAttribute(name, attributes[name])
+	}
+	
+	let visit = children => {
+		for (let child of children) {
+			if (typeof child === 'object' && child instanceof Array) {
+				visit(child);
+				continue;
+			}
+			if (typeof child === 'string') {
+				child = new TextNode(child);
+			}
+			ele.appendChild(child);  // 添加 children 的方法一
+			// ele.children.push(child)  // 方法二
+		}
+	};
+	
+	visit(children);
+	
+	return ele;
+}
+
+export class Wrapper {
+	constructor(type) {
+		this.children = [];
+		this.root = document.createElement(type)
+	}
+
+	setAttribute(name, value) {   // attribute
+		// console.log('MyComponent::setAttribute', name, value);
+		this.root.setAttribute(name, value);
+
+        if (name.match(/^on([\s\S]+)$/)) {
+            let eventName = RegExp.$1.replace(/^[\s\S]/, c => c.toLowerCase());
+            this.root.addEventListener(eventName, value)
+        }
+
+        if (name === 'enableGesture') {
+            enableGesture(this.root)
+        }
+
+	}
+	
+	getAttribute(name) {
+		return this.root.getAttribute(name)
+	}
+
+	get classList() {
+		return this.root.classList;
+	}
+
+	set innerText(text) {
+		return this.root.innerText = text;
+	}
+
+	appendChild(child) {   // 添加children 的方法一
+		this.children.push(child)
+	}
+	
+	addEventListener() {
+		this.root.addEventListener(...arguments)
+	}
+	
+	get style() {
+		return this.root.style;
+	}
+
+	mountTo(parent) {
+		parent.appendChild(this.root);
+		
+		for (let child of this.children) {
+			child.mountTo(this.root)
+		}
+	}
+}
+
+export class TextNode {
+	constructor(text) {
+		this.root = document.createTextNode(text)
+	}
+	
+	mountTo(parent) {
+		parent.appendChild(this.root)
+	}
+
+	getAttribute(name) {
+		return
+	}
+
+}

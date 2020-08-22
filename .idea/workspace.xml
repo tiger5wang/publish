@@ -2,61 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/publish.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/publish-server-vanilla.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/.idea/publish-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/publish-tool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/example.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/package/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-tool/publish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/myapp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/package.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/views/error.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/views/index.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/views/layout.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/Carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/createElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/cssLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/cubicBezier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/gesture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +41,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/LionBridge/qxyh" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myProject\publish\check\demo" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -92,9 +68,39 @@
       <option name="presentableId" value="Default" />
       <updated>1597849175855</updated>
     </task>
+    <task id="LOCAL-00001" summary="发布系统">
+      <created>1597850328969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597850328970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="发布系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布系统" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598081204814">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598081204814" />
+    <state x="372" y="8" key="CommitChangelistDialog2" timestamp="1597850327355">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597850327355" />
+    <state x="432" y="52" key="FileChooserDialogImpl" timestamp="1598081212631">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="432" y="52" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598081212631" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1597850331196">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597850331196" />
   </component>
 </project>
