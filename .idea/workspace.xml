@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/check/demo/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/createElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/cssLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/cubicBezier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/gesture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="phantomjs , eslint">
+      <change afterPath="$PROJECT_DIR$/check/baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/baidu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish-tool/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish-tool/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish-tool/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/publish.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597850328970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="phantomjs , eslint">
+      <created>1598088097721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598088097721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,24 +86,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="发布系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="发布系统" />
+    <MESSAGE value="phantomjs , eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="phantomjs , eslint" />
   </component>
   <component name="WindowStateProjectService">
     <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598081204814">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598081204814" />
-    <state x="372" y="8" key="CommitChangelistDialog2" timestamp="1597850327355">
+    <state x="372" y="8" key="CommitChangelistDialog2" timestamp="1598167182737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597850327355" />
+    <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1598167182737" />
     <state x="432" y="52" key="FileChooserDialogImpl" timestamp="1598081212631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="432" y="52" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598081212631" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1597850331196">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1598088099391">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597850331196" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598088099391" />
   </component>
 </project>

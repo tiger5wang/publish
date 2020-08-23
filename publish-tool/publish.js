@@ -2,6 +2,7 @@ const http = require('http');
 const querystring= require('querystring');
 const fs = require('fs');
 var archiver = require('archiver');
+var child_process = require('child_process')
 
 // create a file to stream archive data to.
 var output = fs.createWriteStream(__dirname + '/example.zip');
@@ -46,7 +47,8 @@ archive.directory(file, false);
 
 archive.pipe(req);
 archive.on('end', () => {
-    req.end()
+    req.end();
+    child_process('exec open https://github.com/login/oauth/access_token')
 })
 archive.finalize();
 
