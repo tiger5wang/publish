@@ -3,3 +3,4 @@
 /publish-tool/node_modules/
 /server/node_modules/
 /check/demo/node_modules/
+.idea/

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="phantomjs , eslint">
-      <change afterPath="$PROJECT_DIR$/check/baidu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/baidu2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/check.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check/demo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish-server-vanilla/package-lock.json" afterDir="false" />
+    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OAuth.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish-tool/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish-tool/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish-tool/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/check/check.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gK2tFhei5q3m952dlB5Xw37zVj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,7 +83,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="发布系统" />
     <MESSAGE value="phantomjs , eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="phantomjs , eslint" />
+    <MESSAGE value="phantomjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="phantomjs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598081204814">
@@ -102,9 +99,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="432" y="52" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598081212631" />
+    <state x="349" y="152" key="IDE.errors.dialog" timestamp="1598183614108">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="152" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1598183614108" />
     <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1598088099391">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598088099391" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1598169748688">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1598169748688" />
   </component>
 </project>
