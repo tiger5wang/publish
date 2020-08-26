@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OAuth.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/check/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish-server-vanilla/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/publish-server-vanilla/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish-tool/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/publish-tool/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/package.zip" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/package.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/LionBridge/qxyh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/publish-server-vanilla" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,10 +96,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="372" y="8" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1598167289462" />
-    <state x="432" y="52" key="FileChooserDialogImpl" timestamp="1598081212631">
+    <state x="432" y="52" key="FileChooserDialogImpl" timestamp="1598278449992">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="432" y="52" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598081212631" />
+    <state x="432" y="52" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598278449992" />
     <state x="349" y="152" key="IDE.errors.dialog" timestamp="1598183614108">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

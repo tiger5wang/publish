@@ -2,7 +2,7 @@ const http = require('http');
 const querystring= require('querystring');
 const fs = require('fs');
 var archiver = require('archiver');
-var child_process = require('child_process')
+var child_process = require('child_process');
 
 // create a file to stream archive data to.
 var output = fs.createWriteStream(__dirname + '/example.zip');
@@ -48,7 +48,8 @@ archive.directory(file, false);
 archive.pipe(req);
 archive.on('end', () => {
     req.end();
-    child_process('exec open https://github.com/login/oauth/access_token')
+    let redirect_uri = encodeURIComponent('http://localhost:8081/auth')
+    child_process.exec(`start chrome https://github.com/login/oauth/authorize?client_id=Iv1.5dd238130b37f0db&redirect_uri=${redirect_uri}&scope=read%3Auser&state=abc123`)
 })
 archive.finalize();
 
