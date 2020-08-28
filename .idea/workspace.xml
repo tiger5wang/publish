@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="" />
+    <list default="true" id="e2345d30-fec4-4346-be27-ffad03d88094" name="Default Changelist" comment="OAuth" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,102 +32,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/check/demo/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/big-integer/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/binary/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/bluebird/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/buffer-indexof-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/buffers/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/chainsaw/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/duplexer2/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/duplexer2/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/duplexer2/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/duplexer2/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/fstream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/listenercount/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/match-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/natives/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/over/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/pullstream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/setimmediate/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/slice-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/traverse/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzip/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/node_modules/fstream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/unzipper/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/publish-server-vanilla/node_modules/wrappy/package.json" />
       <path value="$PROJECT_DIR$/publish-server-vanilla/package.json" />
       <path value="$PROJECT_DIR$/publish-server/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/archiver-utils/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/archiver-utils/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/archiver/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/base64-js/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/bl/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/buffer-crc32/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/buffer/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/child_process/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/compress-commons/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/crc/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/crc32-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/end-of-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/fs-constants/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lazystream/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lazystream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lodash.defaults/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lodash.difference/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lodash.flatten/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lodash.isplainobject/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/lodash.union/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/querystring/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/readdir-glob/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/tar-stream/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/publish-tool/node_modules/zip-stream/package.json" />
       <path value="$PROJECT_DIR$/publish-tool/package.json" />
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
@@ -154,6 +60,11 @@
             <path>
               <item name="publish" type="b2602c69:ProjectViewProjectNode" />
               <item name="publish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="publish" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publish" type="462c0819:PsiDirectoryNode" />
+              <item name="publish-server-vanilla" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,6 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597849175855</updated>
       <workItem from="1598500808285" duration="93000" />
+      <workItem from="1598522497642" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="发布系统">
       <created>1597850328969</created>
@@ -226,34 +138,41 @@
       <option name="project" value="LOCAL" />
       <updated>1598088097721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OAuth">
+      <created>1598522552349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598522552350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93000" />
+    <option name="totallyTimeSpent" value="231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="RNConsole" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="RNConsole" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +185,8 @@
     <MESSAGE value="发布系统" />
     <MESSAGE value="phantomjs , eslint" />
     <MESSAGE value="phantomjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="phantomjs" />
+    <MESSAGE value="OAuth" />
+    <option name="LAST_COMMIT_MESSAGE" value="OAuth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="900" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598081204814">

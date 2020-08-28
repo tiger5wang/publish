@@ -11,11 +11,11 @@ const postData = querystring.stringify({
 });
 
 // 三：
-let redirect_uri = encodeURIComponent('http://localhost:8081/auth')
+let redirect_uri = encodeURIComponent('http://localhost:8081/auth');
 child_process.exec(`start chrome https://github.com/login/oauth/authorize?client_id=Iv1.5dd238130b37f0db&redirect_uri=${redirect_uri}&scope=read%3Auser&state=abc123`);
 
 const server = http.createServer((request, res) => {
-    console.log(request.url)
+    // console.log(request.url)
     console.log('real publish!!!')
     const token = request.url.match(/token=([^&]+)/)[1];
 	
@@ -27,7 +27,7 @@ const server = http.createServer((request, res) => {
 		method: 'POST',
 		headers: {
 		    'token': token,
-			'Content-Type': 'application/x-www-form-urlencoded',
+			'Content-Type': 'application/octet-stream ',
 			// 'Content-Length': 0  // 这个要去掉
 		}
 	};
@@ -45,19 +45,15 @@ const server = http.createServer((request, res) => {
 	});
 	
 	archive.directory(file, false);
-
-// archive.pipe(fs.createWriteStream('./package.zip'))
-// archive.on('end', () => {
-//     console.log('end')
-// })
+	archive.finalize();
 	
 	archive.pipe(req);
 	archive.on('end', () => {
 		req.end();
-		let redirect_uri = encodeURIComponent('http://localhost:8081/auth')
-		child_process.exec(`start chrome https://github.com/login/oauth/authorize?client_id=Iv1.5dd238130b37f0db&redirect_uri=${redirect_uri}&scope=read%3Auser&state=abc123`)
+		console.log('publish success!!');
+		server.close()
 	})
-	archive.finalize();
+	
     
 });
 

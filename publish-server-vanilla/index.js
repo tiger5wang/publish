@@ -2,7 +2,6 @@ const http = require('http');
 const https = require('https');
 const fs = require('fs');
 const unzip = require('unzip');
-const unzipper = require('unzipper')
 
 
 // Create an HTTP tunneling proxy
@@ -33,8 +32,7 @@ const server = http.createServer((req, res) => {
 		// console.log('statusCode:', res.statusCode);
 		// console.log('headers:', res.headers);
 		let body = "";
-		response.on('data', (d) => {
-			console.log('dddd', d.toString());  // 获取的 user 信息
+		response.on('data', (d) => {   // 获取的 user 信息
             body += d.toString()
 		});
 		
@@ -44,13 +42,8 @@ const server = http.createServer((req, res) => {
             
             // 此处进行权限检查
 			
-			// let writeStream = unzipper.Extract({path: '../server/public'});
-			// req.on('data', trunk => {
-			//     writeStream.write(trunk)
-			// });
-			// req.on('end', trunk => {
-			//     writeStream.end(trunk)
-			// })
+			let writeStream = unzip.Extract({path: '../server/public'});
+			req.pipe(writeStream);
 			
             // 接收数据
 			req.on('end', () => {
@@ -82,10 +75,10 @@ const server = http.createServer((req, res) => {
     // let writeStream = unzipper.Extract({path: '../server/public'});
     // req.pipe(writeStream);
 
-    req.on('end', () => {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end('okay');
-    })
+    // req.on('end', () => {
+    //     res.writeHead(200, { 'Content-Type': 'text/plain' });
+    //     res.end('okay');
+    // })
 
 });
 
